@@ -12,7 +12,7 @@
  let input = document.getElementsByClassName('input')[0];
 
  async function fetchApi(targetLocation) {
-   let url = `http://api.weatherapi.com/v1/current.json?key=1c7470eb60334137a3c184245251906&q=${targetLocation}&aqi=yes`;
+   let url = `https://api.weatherapi.com/v1/current.json?key=1c7470eb60334137a3c184245251906&q=${targetLocation}&aqi=yes`;
 
 
    const response = await fetch(url);
